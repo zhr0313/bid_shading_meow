@@ -5,14 +5,21 @@
 且我们业务数据的分布与其相似（存在尖刺情况），故对其进行了复现，并在我们
 的数据上进行了本地测试以及线上ABTest。
 ## 算法
-![算法1流程](./pic/Algorithm1.png)
+
+<div style="text-align:center;">
+  <img src="./pic/Algorithm1.png" width="70%" height="70%">
 <center>图1 主体算法流程</center>
+</div>
 
-![算法2流程](./pic/Algorithm2.png)
+<div style="text-align:center;">
+  <img src="./pic/Algorithm2.png" width="70%" height="70%">
 <center>图2 更新桶算法流程</center>
+</div>
 
-![参考参数](./pic/para.png)
+<div style="text-align:center;">
+  <img src="./pic/para.png" width="70%" height="70%">
 <center>图3 参考超参数</center>
+</div>
 
 ## 体验
 ⚡️exponential_weighting函数，即prob[j]的赋值，在本地数据的后续计算中会出现爆掉的情况，
