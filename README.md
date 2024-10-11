@@ -8,18 +8,18 @@
 
 <div style="text-align:center;">
   <img src="./pic/Algorithm1.png" width="70%" height="70%">
-<center>图1 主体算法流程</center>
 </div>
+<center>图1 主体算法流程</center>
 
 <div style="text-align:center;">
   <img src="./pic/Algorithm2.png" width="70%" height="70%">
-<center>图2 更新桶算法流程</center>
 </div>
+<center>图2 更新桶算法流程</center>
 
 <div style="text-align:center;">
   <img src="./pic/para.png" width="70%" height="70%">
-<center>图3 参考超参数</center>
 </div>
+<center>图3 参考超参数</center>
 
 ## 体验
 ⚡️exponential_weighting函数，即prob[j]的赋值，在本地数据的后续计算中会出现爆掉的情况，
